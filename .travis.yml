@@ -1,5 +1,8 @@
 language:  C
-rvm:
-- 2.2
-- jruby
-- rbx-3
+compiler:
+ - clang
+ - gcc
+#rvm:
+#- 2.2
+#- jruby
+#- rbx-3
