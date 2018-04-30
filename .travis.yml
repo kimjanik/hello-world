@@ -1,7 +1,14 @@
-language:  cpp
-compiler:
- - clang
- - gcc
+language:  c++
+
+include:
+ - os: linux
+ - compiler: gcc
+
+#compiler:
+# - clang
+# - gcc
+
+
 #rvm:
 #- 2.2
 #- jruby
